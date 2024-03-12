@@ -5,7 +5,14 @@ import Image from 'next/image'
 import React from 'react'
 import { Montserrat } from 'next/font/google'
 import { cn } from '@/lib/utils'
-import { Code, ImageIcon, LayoutDashboard ,MessageSquare, Music, Settings, VideoIcon } from 'lucide-react'
+import { 
+    Code,
+    ImageIcon,
+    LayoutDashboard,
+    MessageSquare,
+    Music,
+    Settings,
+    VideoIcon } from 'lucide-react'
 
 import { usePathname } from 'next/navigation'
 
@@ -26,7 +33,7 @@ const routes = [
         label: 'Conversation',
         icon:MessageSquare,
         href:'/conversation',
-        color: "text-sky-500",
+        color: "text-violet-500",
     },
     {
         label: 'Image generation',
